@@ -1,9 +1,0 @@
-$schema: "1.0"
-name: "frontend-eng"
-image: MicrosoftWindowsDesktop_windows-ent-cpc_win11-21h2-ent-cpc-m365
-description: "This definition is for the eShop frontend engineering environment"
-tasks:
-  - name: ~/winget
-    description: Install AZD
-    parameters:
-      package:  Microsoft.Azd
