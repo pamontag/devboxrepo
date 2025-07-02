@@ -1,9 +1,14 @@
 $schema: "1.0"
 name: "frontend-eng"
-image: MicrosoftWindowsDesktop_windows-ent-cpc_win11-21h2-ent-cpc-m365
+image: microsoftwindowsdesktop_windows-ent-cpc_win11-24H2-ent-cpc
 description: "This definition is for the eShop frontend engineering environment"
 tasks:
   - name: winget
     description: Install AZD
     parameters:
-      package: Microsoft.Azd
+      package:  Microsoft.Azd
+  - name: winget
+    description: Install Git
+    parameters:
+      package:  Git.Git
+
