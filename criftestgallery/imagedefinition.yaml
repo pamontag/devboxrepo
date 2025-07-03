@@ -1,0 +1,14 @@
+$schema: "1.0"
+name: "criftestgalleryvscode"
+image: crifdevboxgallery/vscodeImageDef@1.0.0
+description: "This definition is for the vscode environment in the Crif Test Gallery"
+tasks:
+  - name: winget
+    description: Install AZD
+    parameters:
+      package:  Microsoft.Azd
+  - name: winget
+    description: Install Git
+    parameters:
+      package:  Git.Git
+
